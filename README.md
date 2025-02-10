@@ -48,3 +48,12 @@ La ejecución de algunos de esos procesos puede tardar varios minumos, así que 
 Cuando haya finalizado el proceso, verificamos que ROS2 haya sido instalado. Para eso ejecutamos el nodo de la tortuguita: "ros2 run turtlesim turtlesim_node". Si ROS2 ya está instalado, se debe abrir la ventana de la tortuguita, como se observa a continuación:
 
 ![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo8.png?raw=true)
+
+### Procedimiento utilizado
+
+El procedimiento utilizado para la instalación de ROS2, hace uso de una distribución ligera de conda llamada miniforge. Se puede instalar en multiples sistemas operativos incluyendo Windows 10 y Windows 11. También se hizo uso de Robostack, que es una integración de ROS2 con conda, lo que permite gestionar ROS 2 y sus dependencias de manera sencilla.
+
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/miniforge.png?raw=true)
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/robostack.png?raw=true)
