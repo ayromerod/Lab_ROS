@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Danmunozbe/Practica1/tree/Pain2">
-    <img src="Figuras/UNAL.png" alt="Logo" width="200">
+    <img src="Imagenes/UNAL.png" alt="Logo" width="200">
   </a>
 
   <h3 align="center">ROBÓTICA DE DESARROLLO, INTRO A ROS</h3>
