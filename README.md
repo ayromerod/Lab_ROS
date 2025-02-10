@@ -17,4 +17,4 @@
 
 El primer paso para instalar ROS2 es descargar Miniforge. Para ello valos a su repositorio github: https://github.com/conda-forge/miniforge
 
-Dependiendo
+Dependiendo del sistema operativo a usar, se realiza la descarga correspondiente. En nuestro caso se instalará en Windows, por lo tanto navegamos por la página hasta encontrar el enlace de descarga correspondiente:
