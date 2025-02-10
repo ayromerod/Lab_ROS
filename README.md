@@ -16,3 +16,5 @@
 ### 1. RESUMEN CON LOS PASOS PRINCIPALES DE PROCESO DE INSTALACIÓN DE ROS2.
 
 El primer paso para instalar ROS2 es descargar Miniforge. Para ello valos a su repositorio github: https://github.com/conda-forge/miniforge
+
+Dependiendo
