@@ -44,3 +44,7 @@ Volvemos a la página de Robostack y copiamos cada una de las lineas mostradas e
 ![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo7.png?raw=true)
 
 La ejecución de algunos de esos procesos puede tardar varios minumos, así que esperamos.
+
+Cuando haya finalizado el proceso, verificamos que ROS2 haya sido instalado. Para eso ejecutamos el nodo de la tortuguita: "ros2 run turtlesim turtlesim_node". Si ROS2 ya está instalado, se debe abrir la ventana de la tortuguita, como se observa a continuación:
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo8.png?raw=true)
