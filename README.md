@@ -49,11 +49,30 @@ Cuando haya finalizado el proceso, verificamos que ROS2 haya sido instalado. Par
 
 ![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo8.png?raw=true)
 
-### Procedimiento utilizado
+### 2. PROCEDIMIENTO UTILIZADO
 
 El procedimiento utilizado para la instalación de ROS2, hace uso de una distribución ligera de conda llamada miniforge. Se puede instalar en multiples sistemas operativos incluyendo Windows 10 y Windows 11. También se hizo uso de Robostack, que es una integración de ROS2 con conda, lo que permite gestionar ROS 2 y sus dependencias de manera sencilla.
-
 
 ![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/miniforge.png?raw=true)
 
 ![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/robostack.png?raw=true)
+
+### 3. SISTEMA OPERATIVO SOBRE EL QUE SE HIZO LA INSTALACIÓN
+
+La instalación fue realizada en el sistema operativo Windows 10 haciendo uso de las herramientas miniforge y RoboStack.
+
+### 4. DIFICULTADES DE INSTALACIÓN O DE ARRANQUE
+
+Se presentaron varias dificultades. La primera de ellas, corresponde a un error que se genera siempre se activa el entorno "ros_env" cuando se ejecuta el comando "mamba activate ros_env". El error que aparece se puede ver en la siguiente imagen:
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo9.png?raw=true)
+
+Si bien este error no impide la ejecución de ROS2, de alguna manera podría afectar su funcionamiento generando errores futuros a medida que se vaya usando.
+
+Otro error radica en el hecho de que RoboStack usa python 3.11 para su correcto funcionamiento, mientras que el RosToolbox de Matlab requiere que se especifique la ruta de python ya sea versión 8, 9 o 10, como se observa en la siguiente imagen:
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/ros_matlab.png?raw=true)
+
+Al especificar la ruta de la versión de python 3.11 instalado en el entorno ros_env, se genera un error y una advertencia diciendo que el Toolbox de Matlab solo es compatible con las versiones 3.9, 3.9 o 3.10. Esto hizo que mas adelante Matlab no reconiciera los mensajes de turtle sim, y por lo tanto se generara une error en Matlab, al intentar ingresar el comando: "poseSub = ros2subscriber(node, "/turtle1/pose", "turtlesim/Pose");" para suscribirnos en al topico de la pose de "turtle1". Así mismo, al intentar importar los mensajes de turtle sim a la msg list, se generó el siguiente error:
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo3.png?raw=true)
