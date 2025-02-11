@@ -81,7 +81,11 @@ Por otro lado, se intentó reinstalar RoboStack con una versión de python 3.10,
 
 ![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo.png?raw=true)
 
-### 4. USO DE DYNAMIXEL WIZARD
+### 4. EJERCICIOS EN EL LABORATORIO
+
+b) Dando click en la siguiente imagen, será redirigo al video que muestra este procedimiento:
+
+[![Ver video](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/imagen_video.PNG?raw=true)](https://drive.google.com/file/d/1j_uZGf91uFy-DqfmwIRaMbbvYixVCcJL/view?usp=sharing)
 
 ### 5. USO DE DYNAMIXEL WIZARD
 
