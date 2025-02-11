@@ -76,3 +76,7 @@ Otro error radica en el hecho de que RoboStack usa python 3.11 para su correcto 
 Al especificar la ruta de la versión de python 3.11 instalado en el entorno ros_env, se genera un error y una advertencia diciendo que el Toolbox de Matlab solo es compatible con las versiones 3.9, 3.9 o 3.10. Esto hizo que mas adelante Matlab no reconiciera los mensajes de turtle sim, y por lo tanto se generara une error en Matlab, al intentar ingresar el comando: "poseSub = ros2subscriber(node, "/turtle1/pose", "turtlesim/Pose");" para suscribirnos en al topico de la pose de "turtle1". Así mismo, al intentar importar los mensajes de turtle sim a la msg list, se generó el siguiente error:
 
 ![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo3.png?raw=true)
+
+Por otro lado, se intentó reinstalar RoboStack con una versión de python 3.10, para que fuese compatible con el RosToolbox de Matlba, pero se obtuvo el siguiente error:
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo.png?raw=true)
