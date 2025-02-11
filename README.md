@@ -80,3 +80,23 @@ Al especificar la ruta de la versión de python 3.11 instalado en el entorno ros
 Por otro lado, se intentó reinstalar RoboStack con una versión de python 3.10, para que fuese compatible con el RosToolbox de Matlba, pero se obtuvo el siguiente error:
 
 ![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/Sin%20t%C3%ADtulo.png?raw=true)
+
+### 4. USO DE DYNAMIXEL WIZARD
+
+### 5. USO DE DYNAMIXEL WIZARD
+
+Para poder usar el manipulador de 4 grados de libertad con servomotores Dynamixel AX-12A, fue necesario instalar el software Dynamixel Wizard, cuyo pantalla principal se muestra acontinuación:
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/dynamixel_intro.PNG?raw=true)
+
+Para poder emparejar el manipulador al software, se conecta a través de USB y se da click en la tuerquita de la parte superior izquierda del programa. Entonces se abre una ventana, y en la parte que dice "select por to scan" se selecciona el puerto correspondiente, en nuestro caso, COM5.
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/COM.PNG?raw=true)
+
+Se le da click a la lupita de la parte superior izquierda del programa para escanear, y se espera a que se llene la barra de escaneo, realizando la detección como se observa en la siguiente imagen:
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/encontrando_motores.PNG?raw=true)
+
+Finalmente se abre una ventana donde es posible seleccionar a cada uno de los 4 servomotores para poder controlarlos manualmente con el circulo negro de la parte derecha. El prirama permite seleccionar un torque especifico, y se observa que con el torque al máximo, los servomotores se mueven con bastante brusquedad, y a medida que este torque se disminuye, los movimientos del manipulador se hacen mas suavemente.
+
+![](https://github.com/ayromerod/Lab_ROS/blob/main/Imagenes/moviendo_motores.PNG?raw=true)
